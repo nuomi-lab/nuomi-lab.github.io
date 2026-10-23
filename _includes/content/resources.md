@@ -18,7 +18,7 @@ We have put together a set of materials to guide you in developing concrete rese
 
 For the technical foundations of our work:
 
-- **[Notes for Introduction to Machine Learning](https://onefishy.github.io/ML_notes/)**: notes by Weiwei Pan for the introduction to machine learning course that they taught at Harvard. These notes cover regression and classification, neural networks, Bayesian modelling and inference, and latent-variable models, and treat uncertainty, interpretation and responsible use as part of machine learning, not only prediction.
+- **[Introduction to Machine Learning](https://onefishy.github.io/ML_notes/)**: a set of lecture notes by Weiwei Pan for an introduction to machine learning course that they taught at Harvard. These notes cover regression and classification, neural networks, Bayesian modelling and inference, and latent-variable models, and treat uncertainty, interpretation and responsible use as (not only prediction) as primary goals.
 - **[Probabilistic Inference & Optimization](https://onefishy.github.io/probabilistic-inference-and-optimization/)**: a textbook by Weiwei Pan based on the course on foundations of probabilistic machine learning that they taught at Harvard for five years. It covers Bayesian modelling, Markov chain Monte Carlo, variational inference and stochastic optimization, with an emphasis on implementation.
 
 ## Further Reading
