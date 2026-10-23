@@ -16,7 +16,7 @@ permalink: /resources/research-skills
 
 1. [What Research Is (and Isn't)](#what-research-is)
 2. [Four Fundamental Skills of Research](#fundamental-skills)
-3. [Best Research Practices](#best-practices)
+3. [Research Best Practices](#best-practices)
 4. [Working with Technical Ideas](#technical-ideas)
 5. [Skills for a Research Career](#career-skills)
 </section>

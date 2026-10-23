@@ -1,4 +1,4 @@
-# **Best Research Practices**
+# **Research Best Practices**
 
 ## Research Meetings
 
