@@ -16,6 +16,10 @@ We have put together a set of materials to guide you in developing concrete rese
 - **[How to Write a Machine Learning Research Paper](/resources/research-skills#technical-ideas)**: how to go from a one-sentence-per-point introduction to a polished paper.
 - **[Skills for a Research Career](/resources/research-skills#career-skills)**: a map of the skills researchers keep developing, from managing research to managing yourself.
 
+For the technical foundations of our work:
+
+- **[Probabilistic Inference & Optimization](https://onefishy.github.io/probabilistic-inference-and-optimization/)**: a textbook by Weiwei Pan based on the course on foundations of probabilistic machine learning that they taught at Harvard for five years. It covers Bayesian modelling, Markov chain Monte Carlo, variational inference and stochastic optimization, with an emphasis on implementation.
+
 ## Further Reading
 
 - **[How to communicate about research progress](https://mogu-lab.github.io/tutorials/communication-in-collaborative-environments)** (from CS290): how good communication with collaborators gets you unstuck and leads to clearer, more structured feedback on your work.
