@@ -5,9 +5,9 @@
 How to make the most of your research meetings:
 
 - **Prepare:** plan out what you are going to present and how you will present it (e.g. make slides).
-- **Review:** succinctly summarize the goals for the week.
-- **Summarize:** succinctly summarize, at a high level, what you did to meet these goals (e.g. which experiments you did, and why you did them).
-- **Conclude:** succinctly summarize, at a high level, the results of the experiments and which hypotheses they support or invalidate.
+- **Review:** succinctly summarise the goals for the week.
+- **Summarise:** succinctly summarise, at a high level, what you did to meet these goals (e.g. which experiments you did, and why you did them).
+- **Conclude:** succinctly summarise, at a high level, the results of the experiments and which hypotheses they support or invalidate.
 - **Ask:** state what you'd like feedback or help on, invite others to ask you questions, and have your results on hand for detailed discussion.
 
 ## Your Research Week
@@ -15,7 +15,7 @@ How to make the most of your research meetings:
 How to make the most of your research week:
 
 - Have a clear sense of next steps and goals before leaving each meeting, and check that your understanding of these goals matches your mentors'.
-- Practice checking in and asking for feedback: have a mentor check your experimental design before executing it, and practice presenting your results to a peer or mentor to get suggestions for improvement.
+- Practise checking in and asking for feedback: have a mentor check your experimental design before executing it, and practise presenting your results to a peer or mentor to get suggestions for improvement.
 
 ## Code
 

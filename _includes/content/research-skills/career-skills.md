@@ -1,6 +1,6 @@
 # **Skills for a Research Career**
 
-This is a superset of generally helpful skills for Machine Learning PhD students and researchers. No one is expected to have all of them, and researchers keep developing these skills throughout their careers. Use it as a map to reflect on where you are and what you'd like to work on next.
+This is a superset of generally helpful skills for machine learning PhD students and researchers. No one is expected to have all of them, and researchers keep developing these skills throughout their careers. Use it as a map to reflect on where you are and what you'd like to work on next.
 
 ## Managing Research
 
@@ -11,19 +11,19 @@ This is a superset of generally helpful skills for Machine Learning PhD students
 - How to find relevant resources on Google (how to identify keywords, and know that certain keywords are related to your questions)
 - How to design toy datasets to test hypotheses
 - How to come up with hypotheses given results
-- How to synthesize insight from a bunch of random results
+- How to synthesise insight from a bunch of random results
 - How to evaluate the novelty of your technical contribution to a body of literature
 - How to pivot when a project seemingly reaches a dead end
 - How to come up with small project ideas (extending existing work)
 - How to come up with big project ideas (asking more big-picture or philosophical questions)
-- How to formalize a vague question into a concrete, solvable problem statement
-- How to break up a big research program into concrete questions for students you mentor
+- How to formalise a vague question into a concrete, solvable problem statement
+- How to break up a big research programme into concrete questions for students you mentor
 
 ## Communicating Research
 
 - How to communicate results during 10-, 20-, and 30-minute meetings
 - How to ask for the feedback you need during research meetings
-- How to communicate your research program as an elevator pitch
+- How to communicate your research programme as an elevator pitch
 - How to listen for insight during technical talks
 - How to phrase questions for Q&A during and after technical talks
 - How to give talks to, and write for, different types of audiences

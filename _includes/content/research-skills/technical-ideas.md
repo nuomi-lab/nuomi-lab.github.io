@@ -11,7 +11,7 @@
 
 **Logic and argumentation**
 
-- Develop fluency in the rules of logical deduction (e.g. second-order logic).
+- Develop fluency in the rules of logical deduction (e.g. first-order logic).
 - Extract arguments from writing.
 - Evaluate empirical or analytic evidentiary support by applying the rules of logical deduction.
 - Write clearly and precisely.
@@ -60,19 +60,19 @@
 
 2. **Outline the body.** Using the skeleton in your introduction, create an outline for the body of your paper by naming your sections and subsections. Section and subsection names should be informative: tell the reader what the section is about.
 
-3. **Synthesize as results come in.** As your literature survey, theoretical analyses, and experimental results come in:
-   - Synthesize information by outlining each subsection: write down the title and the key take-away (last sentence) of each paragraph. Paragraph titles should be informative, telling the reader what the paragraph is about. The key take-away should be informative too: if the reader skipped the entire paragraph and only read the last sentence, they should get a sense of the main insight highlighted in that paragraph.
-   - Summarize results by adding tables and figures with informative captions. Each caption should state which methods, datasets, and metrics are visualized by which aspects of the table or figure, and should end with the main take-away of the table or figure.
+3. **Synthesise as results come in.** As your literature survey, theoretical analyses, and experimental results come in:
+   - Synthesise information by outlining each subsection: write down the title and the key take-away (last sentence) of each paragraph. Paragraph titles should be informative, telling the reader what the paragraph is about. The key take-away should be informative too: if the reader skipped the entire paragraph and only read the last sentence, they should get a sense of the main insight highlighted in that paragraph.
+   - Summarise results by adding tables and figures with informative captions. Each caption should state which methods, datasets, and metrics are visualised by which aspects of the table or figure, and should end with the main take-away of the table or figure.
 
 4. **Flesh it out.** Once you have added most of the main content, start fleshing out your paper with full sentences, without losing the tight logical structure of the bullet-point version:
-   - *Put in structure to guide the reader and highlight the logic:* at the beginning of each section or subsection, outline its key points or results and its logic; at the end, summarize its key points or results.
+   - *Put in structure to guide the reader and highlight the logic:* at the beginning of each section or subsection, outline its key points or results and its logic; at the end, summarise its key points or results.
    - *Make your paper skimmable:* make sure each paragraph has a bolded title and a bolded take-away; bold important insights and conclusions; make sure important information gets its own paragraph rather than being buried in a long discussion.
 
    At this point, don't worry too much about page limits or about being repetitive. Write for clarity, accuracy, and ease of understanding.
 
 5. **Polish.** Once your paper is mostly fleshed out, begin polishing:
    - Observe the elements of good technical writing as you edit (refer to the book on writing we discuss in group meetings).
-   - Always favor clarity of logic over literary style: err on the side of short, clear sentences, and spell out conclusions explicitly rather than implying them.
+   - Always favour clarity of logic over literary style: err on the side of short, clear sentences, and spell out conclusions explicitly rather than implying them.
    - Read for ambiguity: is every definition of jargon or a concept, and every description of a method, concrete and detailed enough to rule out multiple interpretations? Test this adversarially: what else could satisfy your definition or description, other than the intended concept or process?
    - Add connectors and transitions that highlight the relationships between ideas and insights:
      - informative transitions and connectors between consecutive paragraphs and blocks of text (e.g. "because of the concern we raised in Section 1.2.1, we now do the following analysis…");

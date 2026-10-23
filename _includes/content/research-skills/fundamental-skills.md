@@ -2,7 +2,7 @@
 
 Research rests on four fundamental skills:
 
-1. **Finding, defining, and scoping a research question**
+1. **Defining and scoping a research problem**
 2. **Surveying related work**
 3. **Sustaining incremental progress on your research question**
 4. **Communicating results**
@@ -19,7 +19,7 @@ Questions to ask yourself:
 
 - What application domains or research subfields does your research question impact? How does your research question advance these domains or subfields?
 - What aspects of your research question can be formulated as a machine learning problem, and what framework of formulation should you choose?
-- What aspect of your research question is solvable given your background and timeline?
+- What aspects of your research question are solvable given your background and timeline?
 
 > **What we expect:** It will take many years of experience for you to be able to do the above independently. In the meantime, observe with care how your mentors define and scope research problems, and learn from their examples.
 
@@ -28,7 +28,7 @@ Questions to ask yourself:
 Understand how your proposed approach to a problem relates to existing work. This involves learning to:
 
 - **collect** representative works that use *different methods to tackle the same problem*, works that use *similar methods for different problems*, and works that demonstrate the significance of the problem;
-- **synthesize** related works into conceptual categories, exposing different frameworks or schools of thinking;
+- **synthesise** related works into conceptual categories, exposing different frameworks or schools of thought;
 - **situate** your approach to the problem within the literature: what do you intend to contribute, and why is this contribution novel and significant?
 
 How do you build up a representative collection of related works?
@@ -37,9 +37,9 @@ How do you build up a representative collection of related works?
 - Start with a set of "seed works", and explore their references as well as the works that cite them.
 - Explore works in adjacent fields that solve similar problems or use similar methods.
 
-How do you summarize related works?
+How do you summarise related works?
 
-- Group related works by conceptual framework, modeling assumptions, inference techniques, types of data, space-time complexity, limitations, etc.
+- Group related works by conceptual framework, modelling assumptions, inference techniques, types of data, space-time complexity, limitations, etc.
 - Identify how your work is different from each group of related works, and why that difference means your approach is better.
 
 > **What we expect:** You will maintain a succinct summary of related works, and be able to clearly articulate your contribution in relation to these works, as well as build on existing knowledge.
@@ -49,22 +49,22 @@ How do you summarize related works?
 Maintain piecewise-small, concrete, consistent progress towards your research goal. This involves learning to:
 
 - **design** experiments to test specific hypotheses;
-- **analyze and synthesize** experimental results to inform new hypotheses;
+- **analyse and synthesise** experimental results to inform new hypotheses;
 - **align** short-term hypotheses with long-term goals.
 
 In practice:
 
-- Keep detailed research notes, and keep these notes updated and organized.
-- For blind experiments, keep track of the parameters that vary versus those that are fixed.
+- Keep detailed research notes, and keep these notes updated and organised.
+- For exploratory experiments, keep track of the parameters that vary versus those that are fixed.
 - For targeted experiments:
   - State the hypothesis the experiment tests (there should be only one per experiment).
-  - State how you will summarize the results (e.g. a table or a graph).
+  - State how you will summarise the results (e.g. a table or a graph).
   - State how the result would give support for or against the hypothesis: describe how the graph of a positive result would look versus a negative result.
   - Consider alternative explanations for your results (e.g. are there confounding variables?).
 - Generate new hypotheses. Every experiment, regardless of the result, yields insight.
-- Periodically summarize your results, and ask what remains to be shown with respect to your research goal.
+- Periodically summarise your results, and ask what remains to be shown with respect to your research goal.
 
-> **What we expect:** Every team keeps a single, well-organized document, updated weekly, containing its research notes as well as feedback from meetings.
+> **What we expect:** Every team keeps a single, well-organised document, updated weekly, containing its research notes as well as feedback from meetings.
 
 ## 4. Communicating Results
 
@@ -82,4 +82,4 @@ Questions to ask yourself:
 - What are the limitations of your experiments (what can you *not* conclude from the results)?
 - What are some interesting directions for future research suggested by your experiments?
 
-> **What we expect:** Every team produces a conference-style paper summarizing its work. The process of writing is what turns facts into knowledge. See [How to Write a Machine Learning Research Paper](#technical-ideas) below.
+> **What we expect:** Every team produces a conference-style paper summarising its work. The process of writing is what turns facts into knowledge. See [How to Write a Machine Learning Research Paper](#technical-ideas) below.

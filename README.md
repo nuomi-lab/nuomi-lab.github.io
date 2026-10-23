@@ -18,7 +18,7 @@ These are the only files you should need to edit to update the site's content. E
 | The Research Skills orientation page | `_includes/content/research-skills/*.md` (one file per section) |
 | Publications (add/remove/edit a paper) | `_bibliography/selected_publications.md` (plain BibTeX; edited by hand, nothing regenerates it) |
 
-For the three `content/*.md` files: write plain prose, using `**bold**`, `[link text](url)`, and blank lines between paragraphs, the same way you'd write a markdown document. Don't add HTML tags (`<div>`, `<section>`, etc.) - those live elsewhere and control the page's structure/styling, not its content.
+For the `content/` files: write plain prose, using `**bold**`, `[link text](url)`, and blank lines between paragraphs, the same way you'd write a markdown document. Don't add HTML tags (`<div>`, `<section>`, etc.) - those live elsewhere and control the page's structure/styling, not its content.
 
 See `CONTENT-GUIDE.md` for a fuller, non-technical walkthrough (including the BibTeX format and which optional fields control the Abs/Bib/arXiv/HTML buttons under each publication).
 

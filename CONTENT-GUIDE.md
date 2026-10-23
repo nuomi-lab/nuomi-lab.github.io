@@ -116,7 +116,7 @@ Delete their entire block, from their `- name:` line down to (but not including)
 
 **Note:** the Publications section and its tab are currently hidden, because the lab doesn't have papers yet. Once real papers are in the file below, ask a developer to set `show_publications: true` in `_config.yml` to show them.
 
-`_bibliography/selected_publications.md` controls the "Selected Publications" section. Each paper is one block in a citation format called BibTeX — the same format Google Scholar, Zotero, and most reference managers can export directly, and the file itself has a longer version of these instructions written at the very top.
+`_bibliography/selected_publications.md` controls the "Selected Publications" section. Each paper is one block in a citation format called BibTeX — the same format Google Scholar, Zotero, and most reference managers can export directly.
 
 **Example** — one paper's entry looks like this:
 

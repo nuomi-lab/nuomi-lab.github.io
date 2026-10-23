@@ -1,21 +1,21 @@
 # **How to join?**
 
-## Masters Students and Visiting Students
-NUOMI Lab welcom LSBU masters students who are interested in exploring AI/ML-related research, and we also welcome self-funded visiting research students. If your interests overlap with the lab's research, please reach out to the PI with:
+## Master's Students and Visiting Students
+NUOMI Lab welcomes LSBU master's students who are interested in exploring AI/ML-related research, and we also welcome self-funded visiting research students. If your interests overlap with the lab's research, please reach out to the PI with:
 1. a short explanation of your interest in the lab
 2. a short summary of your background
 3. a CV
 
 ## PhD Students
-NUOMI Lab may have potential PhD openings in 2027 (details to follow). Applicants should have:
-1. a masters degree in Computer Science, Mathematics, Statistics, or a related field (or an equivalent degree with substantial mathematics and programming components)
+NUOMI Lab may have PhD openings in 2027 (details to follow). Applicants should have:
+1. a master's degree in Computer Science, Mathematics, Statistics, or a related field (or an equivalent degree with substantial mathematics and programming components)
 2. courses in Machine Learning and in Probability or Statistics
 
 In addition, it'd be desirable for potential candidates to have:
 1. coursework or experience that engages with how technology affects people, for example in human-computer interaction, ethics, the social sciences, or an application domain such as healthcare
 2. hands-on experience training and evaluating ML models
 
-**Note:** Don't be discouraged if you feel like you don't have all the listed qualifications! Note that these skills can be learnt with dedication and drive. If you are not sure your background is a good fit for NUOMI Lab but are keen to join us, please reach out to the PI.
+**Note:** Don't be discouraged if you feel like you don't have all the listed qualifications! These skills can be learnt with dedication and drive. If you are not sure your background is a good fit for NUOMI Lab but are keen to join us, please reach out to the PI.
 
 
 ## Research Collaborations
@@ -30,7 +30,7 @@ NUOMI Lab welcomes collaborations with researchers and domain experts in academi
 
 Over time, differences in access turn into seeming differences in achievement. Students from well-resourced backgrounds reach advanced coursework, research, and internships early, while equally capable students from underserved backgrounds may spend years completing prerequisites, often while managing jobs and long commutes. We work towards changing processes that decide who gains early access to advanced work, professional knowledge, and scientific networks.
 
-**Our Practice:** In NUOMI lab, we enact our philosophy by:
+**Our Practice:** In NUOMI Lab, we enact our philosophy by:
 
 - making expectations and routes to support explicit, and offering many ways to ask for help;
 - tailoring mentorship to each person's preparation and goals rather than following a rigid template, and treating disagreement about research choices as part of training;
