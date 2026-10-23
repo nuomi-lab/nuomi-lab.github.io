@@ -1,0 +1,156 @@
+.site-navigation {
+  z-index: 1030;
+  padding: 0 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  // Same plum as the footer, regardless of light/dark theme.
+  background-color: $brand-dark;
+
+  .site-navigation-title {
+    display: block;
+    padding: 0.6em 0.75em 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+  }
+
+  li {
+    font-size: 0.875em;
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+    margin: 0;
+
+    &.active a {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 0.6em 0.75em;
+    text-decoration: none;
+    color: $text-white;
+
+    &:hover {
+      color: $text-white;
+    }
+  }
+}
+
+.site-masthead {
+  padding: 2rem 1rem 4rem;
+  // Pull up to cancel out main's mt-4, so the masthead background starts
+  // immediately below the nav with no white gap (this only affects pages
+  // that include the masthead, not main's margin on every other page).
+  margin-top: -1.5rem;
+  background-color: $brand-light;
+  // Full-bleed to the viewport edges - the element itself is constrained to
+  // the page's container width, so a plain background-color would only
+  // fill that width. Same technique as the alternating section backgrounds.
+  box-shadow: 0 0 0 100vmax $brand-light;
+  clip-path: inset(0 -100vmax);
+
+  .site-masthead-inner {
+    max-width: 88rem;
+    margin: 0 auto;
+  }
+
+  // Logo on the left, title + tagline stacked in a column on the right.
+  .site-masthead-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // Wraps instead of overflowing if the logo + text can't both fit on
+    // one line (narrow viewports) - falls back to stacked & centered.
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  .site-masthead-logo {
+    flex: 0 0 auto;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      // Fluid width instead of a fixed size, so it scales continuously with
+      // the viewport rather than jumping at breakpoints. Featured large:
+      // capped at 76rem (1216 CSS px) - beyond the source PNG's native
+      // 2048x2048 / 2x-Retina sharp limit (64rem), so it can mean a slight
+      // softness at the very largest viewports in exchange for a bigger,
+      // more prominent logo.
+      width: clamp(16rem, 46vw, 76rem);
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  .site-masthead-text {
+    flex: 1 1 20rem;
+    text-align: center;
+  }
+
+  .site-masthead-title {
+    // Fluid (clamp, not a fixed em) so it stays proportioned to the logo
+    // beside it at every viewport size, not just on desktop.
+    font-size: clamp(3.6rem, 11vw, 10.5rem);
+    font-weight: 550;
+    margin: 0;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
+    text-align: center;
+    // Same plum as the nav bar background.
+    color: $brand-dark;
+  }
+
+  .site-masthead-tagline {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    font-weight: 300;
+    // Auto side margins keep it centred under the title within the
+    // max-width that .markdown-body h2 gives it.
+    margin: 0.5em auto 0;
+    line-height: 1.65;
+    letter-spacing: 0.015em;
+    word-spacing: 0.22em;
+    text-align: center;
+    // Dark plum rather than the $primary link colour, which is too low
+    // contrast on the $brand-light masthead background.
+    color: $brand-dark;
+
+    // Keep emphasised words the same colour as the rest of the tagline
+    // (overrides the global `strong { color: $text-black }` in _base.scss).
+    strong {
+      color: inherit;
+    }
+
+    // Same colour as the tagline for contrast; it's already bold, and gets
+    // the site-wide hover bar from _markdown.scss.
+    a {
+      color: inherit;
+    }
+  }
+}
+
+// Smaller variant for inner pages (e.g. Resources): page title and tagline
+// only, no logo.
+.site-masthead-compact {
+  padding-bottom: 2.5rem;
+
+  .site-masthead-title {
+    font-size: clamp(2.6rem, 7vw, 4.5rem);
+  }
+
+  .site-masthead-tagline {
+    font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  }
+}

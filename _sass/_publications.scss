@@ -1,0 +1,147 @@
+
+.publications {
+  // Same measure + centering as the intro paragraph above it, so the
+  // publication list lines up with it rather than spanning the full frame.
+  max-width: $content-measure;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  h2.bibliography {
+    // $primary rather than $secondary: the lighter tone is too low contrast
+    // for the year label on the section backgrounds.
+    color: $primary;
+    border-top: 1px solid $secondary;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: right;
+  }
+  ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+      .abbr {
+        height: auto;
+        min-height: 2rem;
+        margin-bottom: 0.5rem;
+        abbr {
+            display: inline-block;
+            max-width: 100%;
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            line-height: 1.3;
+	    color: $primary;
+	    border: solid 1px $primary;
+            padding: 4px 10px;
+            margin-left: 0.1rem;
+            margin-right: 0.1rem;
+            a {
+		&:hover {
+		    text-decoration: none;
+		}
+            }
+        }
+        .award {
+          color: $primary !important;
+          border: 1px solid $primary;
+        }
+      }
+      .author {
+          font-size: 0.8rem;
+      }
+      .title {
+          font-weight: $font-weight-bolder;
+	  letter-spacing: 0.03rem;
+	  margin-bottom: 5px;
+      }
+      .links {
+	  margin-top: 10px;
+	  
+          a.btn {
+	      text-transform: uppercase;
+              color: $text-black;
+              border: 1px solid $text-black;
+              padding-left: 1rem;
+              padding-right: 1rem;
+              padding-top: 0.1rem;
+              padding-bottom: 0.1rem;
+              &:hover {
+		  color: $primary;
+		  border-color: $primary;
+              }
+          }
+      }
+      .btn-disabled {
+          color: $text-black;
+          border: 1px solid $text-black;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;	  
+	  opacity: 1.0;
+	  text-decoration: none;
+	  pointer-events: none;
+	  cursor: default;
+      }
+      .hidden {
+        font-size: 0.875rem;
+        max-height: 0px;
+        overflow: hidden;
+        text-align: justify;
+        transition-property: 0.15s ease;
+        -moz-transition: 0.15s ease;
+        -ms-transition: 0.15s ease;
+        -o-transition: 0.15s ease;
+        transition: all 0.15s ease;
+
+        p {
+          line-height: 1.4em;
+          margin: 10px;
+	  font-size: 1.0em;
+        }
+        pre {
+          font-size: 1em;
+          line-height: 1.4em;
+          padding: 10px;
+        }
+      }
+      .hidden.open {
+	  margin: 10px 10px 10px 0px;	  	  	  
+          max-height: 100em;
+          transition-property: 0.15s linear;
+          -moz-transition: 0.15s linear;
+          -ms-transition: 0.15s linear;
+          -o-transition: 0.15s linear;
+          transition: all 0.15s linear;
+      }
+      div.abstract.hidden {
+          border: dashed 1px rgba(0, 0, 0, 0);
+      }
+      div.abstract.hidden.open {
+          border-color: $secondary;
+      }
+    }
+  }
+}
+
+.talk {
+    color: $primary;
+    border: solid 1px $primary;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translateY(-10%);
+    &:hover {
+	color: $primary;	
+        text-decoration: none;
+    }    
+}

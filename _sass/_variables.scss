@@ -1,0 +1,76 @@
+// Note: override bootstrap defauls from:
+// https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+
+// Wider than Bootstrap's default (960px/1140px at lg/xl), and a narrower
+// gutter, so the page uses more of the available width instead of leaving
+// large empty margins on wide screens.
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1140px,
+  xl: 1320px
+);
+$grid-gutter-width: 20px;
+
+// Brand palette. The whole site's colour scheme comes from these five values.
+$brand-dark:  #5A405B; // nav bar, footer, masthead text
+$brand-mid:   #83647E; // links, buttons, badges
+$brand-soft:  #AA8F9F; // rules and secondary accents
+$brand-light: #D0BBBD; // masthead background
+$brand-pale:  #F7F0ED; // section backgrounds
+
+$primary:   $brand-mid;
+$secondary: $brand-soft;
+$success:   #24735C;
+$info:      $brand-soft;
+$warning:   #9c9210;
+$danger:    #594e80;
+$light:     $brand-pale;
+$dark:      $brand-dark;
+
+//$primary:   #007bff;
+//$secondary: #6c757d;
+//$success:   #28a745;
+//$info:      #17a2b8;
+//$warning:   #ffc107;
+//$danger:    #dc3545;
+//$light:     #f8f9fa;
+//$dark:      #343a40;
+
+$text-black: #343a40;
+$text-white: rgba(white, .9);
+$text-black-muted: rgba(0, 0, 0, 0.57);
+
+$rounded-borders: 15px;
+
+$site-background: #fafafa;
+
+// Alternating section backgrounds: the palette's palest tone and a warm white.
+// Both keep $primary links above 4.5:1 contrast.
+$section-cream:        $brand-pale;
+$section-cream-dark:   #382e24;
+$section-white:        #fdfaf9;
+$section-white-dark:   #343725;
+
+// Links
+//$link-color: $danger;
+//$link-shade-percentage: 20%;
+//$link-hover-color: shift-color($link-color, $link-shade-percentage);
+//$link-hover-decoration: null;
+
+
+// Font
+$font-family-base: "Cardo", serif;
+$font-size-base: 1.1rem;
+$font-weight-base: 300;
+// Slightly looser than Bootstrap's 1.5 default, to reduce text density.
+$line-height-base: 1.65;
+
+$font-weight-lighter: 100;
+$font-weight-light: 200;
+$font-weight-normal: 300;
+$font-weight-medium: 400;
+$font-weight-semibold: 450;
+$font-weight-bold: 500;
+$font-weight-bolder: 600;
+

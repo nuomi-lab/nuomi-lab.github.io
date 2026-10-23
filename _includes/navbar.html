@@ -1,0 +1,32 @@
+<nav class="site-navigation sticky-top" role="navigation">
+  <a class="site-navigation-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <ul>
+    <li data-anchor="about"><a href="{{ site.baseurl }}/#about">About</a></li>
+    <li data-anchor="research"><a href="{{ site.baseurl }}/#research">Research</a></li>
+    {% if site.show_publications %}
+    <li data-anchor="publications"><a href="{{ site.baseurl }}/#publications">Publications</a></li>
+    {% endif %}
+    <li data-anchor="people"><a href="{{ site.baseurl }}/#people">People</a></li>
+    <li data-anchor="joining"><a href="{{ site.baseurl }}/#joining">Joining</a></li>
+    <li data-anchor="resources"{% if page.url contains '/resources' %} class="active"{% endif %}><a href="{{ site.baseurl }}/#resources">Resources</a></li>
+
+    {% for account in site.author %}
+
+      {%- assign service_name = account[0] -%}
+      {%- assign service_data = site.data.social-media[service_name] -%}
+      {%- if service_data -%}
+      <li>
+        <a target="_blank" href="{{ service_data.url }}{{ account[1] }}">
+          <i class="{{ service_data.icon }} fa-1x"></i>
+        </a>
+      </li>
+      {%- endif -%}
+
+    {% endfor %}
+
+    <!--
+    <li><span id="theme-toggler" role="button" onclick="toggleTheme()"></span></li>
+    !-->
+
+  </ul>
+</nav>

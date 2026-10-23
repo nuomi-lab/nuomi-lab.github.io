@@ -1,0 +1,29 @@
+- section: "Members"
+  members:
+    - name: Weiwei Pan
+      pronouns: they/them
+      title: Principal Investigator
+      affiliation: London South Bank University
+      site: https://onefishy.github.io/
+      image: /assets/img/people/weiwei-pan.png
+    - name: Nuomi
+      title: Lab Mascot & Director of Lab Spirit
+      affiliation: London South Bank University
+      image: /assets/img/people/nuomi.png
+
+- section: "Current Collaborators"
+  members:
+    - name: Yaniv Yacoby
+      title: Assistant Professor of Computer Science
+      affiliation: Wellesley College
+      site: https://yanivyacoby.github.io/
+      image: /assets/img/people/yaniv-yacoby.png
+    - name: Siddharth Swaroop
+      title: Lecturer in Artificial Intelligence
+      affiliation: University College London
+      site: https://siddharthswaroop.github.io/
+      image: /assets/img/people/siddharth-swaroop.png
+    - name: Basis Research Institute
+      title: Nonprofit applied research organization
+      site: https://www.basis.ai/
+      image: /assets/img/people/basis.png

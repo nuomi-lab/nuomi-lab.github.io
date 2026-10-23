@@ -1,0 +1,63 @@
+<!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<script>
+  // Initialize all tooltips
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  });
+
+  // Hide/show abstract and bibtex
+  $(document).ready(function() {
+    $('a.abstract').click(function() {
+        $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
+    });
+    $('a.bibtex').click(function() {
+        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+    });
+  });
+</script>
+
+<!-- Nav scrollspy: highlight the nav link for the section currently in view -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var navLinks = document.querySelectorAll('.site-navigation li[data-anchor]');
+    var anchors = Array.prototype.map.call(navLinks, function (li) {
+      return li.getAttribute('data-anchor');
+    });
+    // Only watch sections the nav links to. Inner pages (e.g. Research Skills)
+    // have their own section ids and keep their server-rendered active tab.
+    var sections = Array.prototype.filter.call(document.querySelectorAll('main section[id]'), function (section) {
+      return anchors.indexOf(section.getAttribute('id')) !== -1;
+    });
+
+    if (!sections.length || !navLinks.length || !('IntersectionObserver' in window)) return;
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var id = entry.target.getAttribute('id');
+        navLinks.forEach(function (li) {
+          li.classList.toggle('active', li.getAttribute('data-anchor') === id);
+        });
+      });
+    }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+
+    sections.forEach(function (section) {
+      observer.observe(section);
+    });
+  });
+</script>

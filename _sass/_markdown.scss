@@ -1,0 +1,139 @@
+.markdown-body {
+  h1,
+  h2 {
+    margin-top: 32px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  // Align with the paragraph column below/above it (same measure +
+  // centering as .markdown-body p), rather than the full-width frame.
+  h2 {
+    max-width: $content-measure;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  hr {
+    background: $secondary;
+  }
+
+  img:not(.emoji) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+  }
+
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: 1rem;
+    width: 100%;
+    iframe {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      height: 0.15em;
+      margin-top: -0.15em;
+      width: 0;
+      background: $primary;
+      transition: width 0.35s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  pre {
+    background: $light;
+    border: 1px solid #ddd;
+    color: $dark;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    padding: 1em 1.5em;
+    display: block;
+    page-break-inside: avoid;
+    overflow: auto;
+    word-wrap: break-word;
+  }
+
+  code.highlighter-rouge {
+    background-color: $light;
+    color: $dark;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0.2em 0.65em;
+  }
+
+  // Callout box (e.g. "What we expect" notes), aligned with the paragraph
+  // column. Dark text on a light tint: $secondary text is too low contrast.
+  blockquote {
+    max-width: $content-measure;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 0.25em solid $primary;
+    background-color: rgba($brand-light, 0.35);
+    color: $text-black;
+    padding: 0.75em 1em;
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul.task-list {
+    list-style: none;
+    padding-left: 24px;
+  }
+
+  input.task-list-item-checkbox {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  table:not(.highlight) {
+    display: block;
+    overflow-x: auto;
+    margin: 1rem 0;
+
+    td {
+      border: 1px solid #ddd;
+      padding: 8px 16px;
+    }
+
+    th {
+      @extend td;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-weight: 500;
+      text-align: left;
+      background-color: $primary;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}

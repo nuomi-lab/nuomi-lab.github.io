@@ -1,0 +1,40 @@
+section#research img {
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  // Same measure + centering as the paragraphs above it, so a row of
+  // project cards never spans wider than the text column does.
+  max-width: $content-measure;
+  margin-left: auto;
+  margin-right: auto;
+  // Breathing room below the "Current Projects" heading above it.
+  margin-top: 2rem;
+}
+
+.project.card {
+  //border-radius: $rounded-borders;
+  text-decoration: none !important;
+  width: 100%;
+  margin-bottom: 20px;
+
+  .card-img-top {
+      //border-radius: $rounded-borders $rounded-borders 0 0;
+      margin: 0px;
+  }
+
+  // Center the name and blurb, matching the People profile cards.
+  .card-body {
+    text-align: center;
+  }
+
+  transition: transform 400ms;
+
+  &:hover:not(.post) {
+    transform: translateY(-8px);
+    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+  }
+}
+
+

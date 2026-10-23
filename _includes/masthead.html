@@ -1,0 +1,21 @@
+<header class="site-masthead">
+  <div class="site-masthead-inner">
+
+    <div class="site-masthead-row">
+      {% if site.logo %}
+      <div class="site-masthead-logo">
+        <picture>
+          <source srcset="{{ site.logo | replace: '.png', '.webp' }}" type="image/webp">
+          <img src="{{ site.logo }}" alt="NUOMI Lab Logo">
+        </picture>
+      </div>
+      {% endif %}
+
+      <div class="site-masthead-text">
+        <h1 class="site-masthead-title">{{ site.title | split: " @ " | first }}</h1>
+        <h2 class="site-masthead-tagline">{{ site.description | replace: "Normative and User-Oriented Machine Intelligence (NUOMI) Lab", "<strong>Normative and User-Oriented Machine Intelligence (NUOMI) Lab</strong>" | replace: "London South Bank University", '<a href="https://www.lsbu.ac.uk" target="_blank" style="font-weight: 700;">London South Bank University</a>' }}</h2>
+      </div>
+    </div>
+
+  </div>
+</header>

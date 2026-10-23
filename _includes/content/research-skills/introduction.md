@@ -1,0 +1,3 @@
+This page is an orientation for junior researchers in NUOMI Lab who are developing their research skills and careers. It covers what research is (and isn't), the four fundamental skills of research and what we expect for each, best research practices for meetings and code, how to engage with technical ideas and write a Machine Learning research paper, and a map of the skills researchers keep developing throughout their careers.
+
+No one arrives with all of these skills. Treat this page as a reference to come back to as you grow, and as a starting point for conversations with your mentors. Further reading is on the [Resources](/#resources) page.

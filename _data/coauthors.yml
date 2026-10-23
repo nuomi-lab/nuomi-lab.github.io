@@ -1,0 +1,12 @@
+# Links coauthor names in the publication list to their websites.
+# Keyed by last name; `firstname` lists every spelling used in the BibTeX.
+# Optional `status` styles lab mentees: P (PhD), M (Masters), U (Undergrad).
+#
+# "Coauthor":
+#   - firstname: ["Ada", "A."]
+#     url: https://example.com/
+#     status: P
+
+"Pan":
+  - firstname: ["Weiwei", "W."]
+    url: https://onefishy.github.io/

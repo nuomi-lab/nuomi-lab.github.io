@@ -1,0 +1,19 @@
+
+.people {
+    .card-img-top {
+        // Much smaller than the card's full width (the previous default),
+        // and centered within it.
+        width: 9rem;
+        max-width: 60%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

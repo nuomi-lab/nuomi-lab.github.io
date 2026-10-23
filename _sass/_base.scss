@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+body {
+    color: $text-black;
+    background-color: $site-background;
+    // Slightly looser than the default 0, to reduce text density.
+    word-spacing: 0.06em;
+}
+
+.markdown-body > section {
+  padding: 2.5rem 0.75rem;
+  clip-path: inset(0 -100vmax);
+  background-color: var(--section-bg);
+  box-shadow: 0 0 0 100vmax var(--section-bg);
+
+  &:nth-of-type(odd) {
+    [data-theme="light"] & {
+      --section-bg: #{$section-cream};
+    }
+
+    [data-theme="dark"] & {
+      --section-bg: #{$section-cream-dark};
+    }
+  }
+
+  &:nth-of-type(even) {
+    [data-theme="light"] & {
+      --section-bg: #{$section-white};
+    }
+
+    [data-theme="dark"] & {
+      --section-bg: #{$section-white-dark};
+    }
+  }
+
+  // Cards (e.g. the People profiles) default to a white background;
+  // match them to whichever section color they're sitting on.
+  .card {
+    background-color: var(--section-bg);
+  }
+}
+
+// Shared column width for paragraphs, headings, and other content blocks
+// that should all line up with each other (roughly 11 words per line at
+// paragraph size). A fixed rem value rather than `ch`: `ch` is relative to
+// each element's own font-size, so a heading (bigger font) would resolve
+// to a *wider* box than the paragraph below it even at the same 66ch,
+// throwing off their left-edge alignment. rem is font-size-independent,
+// so every block clamped to it lines up exactly regardless of its own
+// type size - same idea as a print column measure shared by headline and
+// body copy.
+$content-measure: 38rem;
+
+.markdown-body {
+  p {
+    max-width: $content-measure;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+
+  // Unlike p/h2 above, ol/ul had no measure/centering rule, so they filled the
+  // full (wider) .container width instead of the narrower text column -
+  // visible as soon as that column and the container width actually differ.
+  ol,
+  ul {
+    max-width: $content-measure;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+strong {
+    color: $text-black;
+}
+
+.badge {
+    font-weight: $font-weight-normal;
+}
+
+.bg-light,
+.badge-light {
+  &,
+  * {
+    color: $text-black !important;
+  }
+}
+
+.bg-dark,
+.badge-dark {
+  &,
+  * {
+    color: $text-white !important;
+  }
+}
+

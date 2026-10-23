@@ -1,0 +1,199 @@
+### Markdown ###
+kramdown:
+  # Don't auto-generate heading ids from heading text - our <section id="...">
+  # wrappers already provide stable anchors, and auto ids would collide with
+  # them whenever a heading's text happens to match a section's id (e.g. a
+  # heading literally titled "About" on the section with id="about"). This
+  # also means content editors can freely reword headings without worrying
+  # about breaking any anchor links.
+  auto_ids: false
+
+
+### Site Settings ###
+title               : NUOMI Lab @ LSBU
+description         : The Normative and User-Oriented Machine Intelligence (NUOMI) Lab is an Artificial Intelligence research group at London South Bank University
+baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : nuomi-lab/nuomi-lab.github.io
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : true                              # Opens external URLs in new tab (works for posts, projects and navbar only)
+keywords            : Machine Learning, ML, Artificial Intelligence, AI, Normative Machine Learning, Human-Centred AI, Human-AI Interaction, Interpretability, Uncertainty, AI Ethics, Research, London South Bank University, LSBU, Computer Science
+
+# Lab logo shown in the masthead. Leave commented out for a text-only masthead.
+# logo                : /assets/img/nuomi-lab-logo.png
+
+# Show the Publications section and nav tab. Hidden until the lab has its own
+# papers in _bibliography/selected_publications.md.
+show_publications   : false
+
+# Jekyll Sitemap
+url: "https://nuomi-lab.github.io"
+
+# Jekyll WebP
+webp:
+  enabled: true
+  
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
+  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+  img_dir: ["/assets/img", "/assets/img/people"]
+
+  # Whether to search in nested directories or not
+  nested: true
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files 
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Local path to the WebP utilities to use (relative or absolute)
+  # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+  # Eg : "/usr/local/bin/cwebp"
+  webp_path: nil
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: []
+
+  # append '.webp' to filename after original extension rather than replacing it.
+  # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
+  append_ext: false
+
+
+### Plugins ###
+jekyll-plugins:
+  - jemoji
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-webp
+
+
+
+
+### Author Info ###
+author:
+  name              : Weiwei Pan
+#  image             : /assets/img/nuomi-lab-logo.png  # TODO: social-share (og:image) picture; set once there is a logo
+#  behance           : your_username
+# dribbble          : your_username
+#  email             : username@domain.com
+#  facebook          : your_username
+# github            : your_username # TODO
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+#  linkedin          : your_username
+#  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+#  twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /tutorials/:title
+
+
+### Collections ###
+collections:
+  research:
+    output: true
+    permalink: /research/:name
+
+
+### Disqus ###
+#disqus:
+#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                       # TODO: set true and add your own GA4 tracking_id below
+  google:
+    tracking_id: G-XXXXXXXXXX
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+      layout: "post"
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - CONTENT-GUIDE.md
+  - LICENSE
+  - Makefile
+  - "*.log"
+
+
+### Jekyll Scholar ###
+scholar:
+  style: apa
+  locale: en
+
+  # Used by _layouts/bib.html to bold/italicize your own name in author lists.
+  first_name: Weiwei
+  last_name: Pan
+
+  source: /_bibliography/
+  bibliography: selected_publications.md
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  # Group entries by year (descending) so the page doesn't depend on a
+  # hardcoded list of years - _bibliography/selected_publications.md is
+  # hand-maintained (see its header comment and CONTENT-GUIDE.md), so years
+  # shouldn't need to be kept in sync by hand.
+  # Note: jekyll-scholar applies bibliography_class to BOTH the group
+  # heading (<h2>) and the entry list (<ol>) - do not override it, since
+  # _publications.scss's list styling (badges, abstract/bibtex collapse,
+  # link buttons) is scoped to the default `ol.bibliography`. The group
+  # heading is instead targeted in CSS as `h2.bibliography`.
+  group_by: year
+  group_order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+
