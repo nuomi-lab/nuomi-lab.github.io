@@ -18,11 +18,11 @@ We have put together a set of materials to guide you in developing concrete rese
 
 For the technical foundations of our work:
 
-- **[Introduction to Machine Learning](https://onefishy.github.io/ML_notes/)**: a set of lecture notes by Weiwei Pan for an introduction to machine learning course that they taught at Harvard. These notes cover regression and classification, neural networks, Bayesian modelling and inference, and latent-variable models, and treat uncertainty, interpretation and responsible use as (not only prediction) as primary goals.
+- **[Introduction to Machine Learning](https://onefishy.github.io/ML_notes/)**: a set of lecture notes by Weiwei Pan for an introduction to machine learning course that they taught at Harvard. These notes cover regression and classification, neural networks, Bayesian modelling and inference, and latent-variable models, and treat uncertainty, interpretation and responsible use (not only prediction) as primary goals.
 - **[Probabilistic Inference & Optimization](https://onefishy.github.io/probabilistic-inference-and-optimization/)**: a textbook by Weiwei Pan based on the course on foundations of probabilistic machine learning that they taught at Harvard for five years. It covers Bayesian modelling, Markov chain Monte Carlo, variational inference and stochastic optimization, with an emphasis on implementation.
 
 ## Further Reading
-The following are materials for research student that we co-developed with [MOGU Lab](https://mogu-lab.github.io/): 
+The following are materials for research students that we co-developed with [MOGU Lab](https://mogu-lab.github.io/): 
 - **[How to communicate about research progress](https://mogu-lab.github.io/tutorials/communication-in-collaborative-environments)**: how good communication with collaborators gets you unstuck and leads to clearer, more structured feedback on your work.
 - **[How to read a research paper](https://mogu-lab.github.io/tutorials/how-to-read-a-research-paper)**: strategies for reading dense papers that assume a lot of background knowledge.
 - **[How to make the most of your PhD](https://yanivyacoby.github.io/a-guide-to-your-phd/)**: a guide from current to incoming PhD students on the "hidden curriculum" of doctoral programs, useful for graduate students in general.
