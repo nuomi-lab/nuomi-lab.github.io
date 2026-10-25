@@ -26,18 +26,24 @@ NUOMI Lab welcomes collaborations with researchers and domain experts in academi
 
 ## Diversity and Inclusion
 
-**Our Philosophy:** Inclusion requires more than offering everyone the same opportunities. People arrive at research through social and institutional systems that have already shaped their preparation, their resources, their sense of safety, and whether they have been recognised as capable. Identity and lived experience are therefore not "personal" matters separate from research training: they affect who is heard, who receives informal guidance, who feels safe admitting confusion, and who has time to take on research or unpaid opportunities. Ignoring identity does not create a neutral environment; it leaves existing inequalities in place. When people know their experiences will be heard rather than minimised, they ask for help earlier, take intellectual risks, and can give more of their attention to research.
+**Our Philosophy:** We believe that *inclusion* requires more than offering everyone the same opportunities. People arrive at research through social and institutional systems that have already shaped their preparation, their resources, their sense of belonging, and whether they have been recognised as capable. Identity and life experience are therefore not "personal" matters that are separable from research training. Rather, they affect who is heard, who receives informal guidance, who feels safe admitting confusion, and who has time to take on unpaid professional development or research opportunities. Ignoring identity does not create a neutral environment; instead, it risks leaving existing inequalities in place. When people know their experiences will be heard rather than minimised, they ask for help earlier, take intellectual risks, and can give more of their curiosity, passion and energy to research.
 
-Over time, differences in access turn into seeming differences in achievement. Students from well-resourced backgrounds reach advanced coursework, research, and internships early, while equally capable students from underserved backgrounds may spend years completing prerequisites, often while managing jobs and long commutes. We work towards changing processes that decide who gains early access to advanced work, professional knowledge, and scientific networks.
+In NUOMI Lab, we work to build research communities that acknowledge, value and support each researcher as a whole person (intellect, identity and life experiences).
+
+We believe that differences in *access* to opportunities can, accumulating over time, turn into seeming differences in achievement. Better access means that students from well-resourced backgrounds can reach advanced coursework, research, and internships earlier, while equally capable, driven students from underserved backgrounds may spend more time completing prerequisites, often while balancing life obligations.
+
+In NUOMI Lab, we work towards broadening access to advanced work, professional knowledge, and scientific networks.
 
 **Our Practice:** In NUOMI Lab, we enact our philosophy by:
 
-- making expectations and routes to support explicit, and offering many ways to ask for help;
-- tailoring mentorship to each person's preparation and goals rather than following a rigid template, and treating disagreement about research choices as part of training;
+- making community values and expectations clear;
+- making routes to support numerous and explicit, and normalising struggle as well as asking for help;
+- tailoring mentorship to each person's preparation and goals rather than following a rigid template;
 - recognising that unfamiliarity with academic conventions, financial pressure, health, or doubts about belonging can affect anyone's work, and helping people through these barriers without lowering expectations;
-- taking people's accounts of their own experiences seriously, and stepping in when group norms silence or marginalise someone.
+- taking people's accounts of their own experiences seriously, and setting up processes for intervening (and for the community to self-reflect) when group norms may marginalise someone's experiences;
+- teaching the hidden curriculum of scientific research as part of the mentorship every student receives.
 
-Equity is also part of the intellectual content of our work. How a technical problem is formulated encodes social assumptions, and the same forces that shape who participates in technology also shape who bears its effects when it is deployed. We treat identifying and acting on these inequities as a core skill for anyone who builds AI, not only as a matter of interpersonal kindness.
+Equity is also part of the intellectual content of our work. How a technical problem is formulated encodes social assumptions, and the same forces that shape who participates in technology also shape who is affected after it is deployed. We teach, as a core skill, every student to identify and engage with these inequities through their research.
 
 ## Contact
 
